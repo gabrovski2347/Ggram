@@ -1,4 +1,4 @@
-namespace Ggram.Web.Models
+namespace Ggram.Web.ViewModels
 {
     public class ErrorViewModel
     {

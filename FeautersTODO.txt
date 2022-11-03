@@ -1,0 +1,11 @@
+1. Users having
+  1.1 First Name - Done
+  1.2 Last Name - Done
+  1.3 Images - Not Started
+  1.4 Posts - Done
+
+2. Posts(Title, Description, Images, User)
+  2.1 Adding
+  2.2 Deleting
+  2.3 Editing
+  2.4 Read
