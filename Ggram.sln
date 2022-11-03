@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{BF7E1143-2E7E-4751-9D3E-119049849B9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{A9BF706C-E55C-4A0F-9707-B3BE8A39BD09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{050CE99A-5F18-43C4-BFB5-F22D863896F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{90F91DDD-C91D-4D96-9854-6D6ADE81B18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ggram.Web", "Ggram.Web\Ggram.Web.csproj", "{F2126884-1588-4800-9F6F-81A63A3E05F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ggram.Web.ViewModels", "Ggram.Web.ViewModels\Ggram.Web.ViewModels.csproj", "{8929AD83-DAA8-4CB2-AFD1-5065380E7817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ggram.Data", "Ggram.Data\Ggram.Data.csproj", "{44B7FB9D-9C9A-43EB-B5BE-A076A7A72D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ggram.Data.Models", "Ggram.Data.Models\Ggram.Data.Models.csproj", "{6186FBBA-97D2-47A6-9EE1-CBAC6BC837A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2126884-1588-4800-9F6F-81A63A3E05F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2126884-1588-4800-9F6F-81A63A3E05F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2126884-1588-4800-9F6F-81A63A3E05F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2126884-1588-4800-9F6F-81A63A3E05F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8929AD83-DAA8-4CB2-AFD1-5065380E7817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8929AD83-DAA8-4CB2-AFD1-5065380E7817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8929AD83-DAA8-4CB2-AFD1-5065380E7817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8929AD83-DAA8-4CB2-AFD1-5065380E7817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B7FB9D-9C9A-43EB-B5BE-A076A7A72D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B7FB9D-9C9A-43EB-B5BE-A076A7A72D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B7FB9D-9C9A-43EB-B5BE-A076A7A72D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B7FB9D-9C9A-43EB-B5BE-A076A7A72D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6186FBBA-97D2-47A6-9EE1-CBAC6BC837A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6186FBBA-97D2-47A6-9EE1-CBAC6BC837A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6186FBBA-97D2-47A6-9EE1-CBAC6BC837A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6186FBBA-97D2-47A6-9EE1-CBAC6BC837A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2126884-1588-4800-9F6F-81A63A3E05F1} = {A9BF706C-E55C-4A0F-9707-B3BE8A39BD09}
+		{8929AD83-DAA8-4CB2-AFD1-5065380E7817} = {A9BF706C-E55C-4A0F-9707-B3BE8A39BD09}
+		{44B7FB9D-9C9A-43EB-B5BE-A076A7A72D53} = {BF7E1143-2E7E-4751-9D3E-119049849B9D}
+		{6186FBBA-97D2-47A6-9EE1-CBAC6BC837A6} = {BF7E1143-2E7E-4751-9D3E-119049849B9D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14B71959-E4FB-44B2-8C3F-3FBD2C385082}
+	EndGlobalSection
+EndGlobal

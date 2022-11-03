@@ -1,0 +1,17 @@
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\bin\Debug\net6.0\Ggram.Data.deps.json
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\bin\Debug\net6.0\Ggram.Data.runtimeconfig.json
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\bin\Debug\net6.0\Ggram.Data.dll
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\bin\Debug\net6.0\Ggram.Data.pdb
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\bin\Debug\net6.0\Ggram.Data.Models.dll
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\bin\Debug\net6.0\Ggram.Data.Models.pdb
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\Ggram.Data.csproj.AssemblyReference.cache
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\Ggram.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\Ggram.Data.AssemblyInfoInputs.cache
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\Ggram.Data.AssemblyInfo.cs
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\Ggram.Data.csproj.CoreCompileInputs.cache
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\Ggram.Data.csproj.CopyComplete
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\Ggram.Data.dll
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\refint\Ggram.Data.dll
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\Ggram.Data.pdb
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\Ggram.Data.genruntimeconfig.cache
+C:\Programing\SoftUni\Web\Ggram\Ggram.Data\obj\Debug\net6.0\ref\Ggram.Data.dll
