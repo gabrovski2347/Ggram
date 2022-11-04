@@ -2,32 +2,50 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+using Ggram.Services;
+using Ggram.Web.ViewModels.User;
+using Ggram.Contracts;
 using Ggram.Web.ViewModels;
+using Ggram.Web.ViewModels.Post;
 
-namespace Watchlist.Controllers
+namespace Ggram.Web.Controllers
 {
     [Authorize]
     public class UserController : Controller
     {
-        private readonly UserManager<User> userManager;
-
-        private readonly SignInManager<User> signInManager;
+        private readonly UserManager<ApplicationUser> userManager;
+        private readonly SignInManager<ApplicationUser> signInManager;
+        private readonly IUserService userService;
 
         public UserController(
-            UserManager<User> _userManager,
-            SignInManager<User> _signInManager)
+            UserManager<ApplicationUser> _userManager,
+            SignInManager<ApplicationUser> _signInManager,
+            IUserService _userService)
         {
             userManager = _userManager;
             signInManager = _signInManager;
+            userService = _userService;
         }
-        
+
+        public async Task<IActionResult> Index()
+        {
+            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+
+            var user = await userService.ReadUserAsync(userId);
+
+            UserViewModel model = userService.CreateModel(user);
+
+            return View(model);
+        }        
+
         [HttpGet]
         [AllowAnonymous]
         public IActionResult Register()
         {
             if (User?.Identity?.IsAuthenticated ?? false)
             {
-                return RedirectToAction("All", "Movies");
+                return RedirectToAction("Index", "User");
             }
 
             var model = new RegisterViewModel();
@@ -44,15 +62,7 @@ namespace Watchlist.Controllers
                 return View(model);
             }
 
-            var user = new User()
-            {
-                LastName = model.LastName,
-                FirstName = model.FirstName,
-                Email = model.Email,
-                UserName = model.UserName
-            };
-
-            var result = await userManager.CreateAsync(user, model.Password);
+            var result = await userService.RegisterUserAsync(model);
 
             if (result.Succeeded)
             {
@@ -73,7 +83,7 @@ namespace Watchlist.Controllers
         {
             if (User?.Identity?.IsAuthenticated ?? false)
             {
-                return RedirectToAction("All", "Movies");
+                return RedirectToAction("Index", "User");
             }
 
             var model = new LoginViewModel();
@@ -98,7 +108,7 @@ namespace Watchlist.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("All", "Movies");
+                    return RedirectToAction("Index", "User");
                 }
             }
 
@@ -109,7 +119,7 @@ namespace Watchlist.Controllers
 
         public async Task<IActionResult> Logout()
         {
-            await signInManager.SignOutAsync();
+            await userService.SignOutAsync();
 
             return RedirectToAction("Index", "Home");
         }

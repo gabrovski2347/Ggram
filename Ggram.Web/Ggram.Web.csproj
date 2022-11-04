@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ggram.Data\Ggram.Data.csproj" />
+    <ProjectReference Include="..\Ggram.Services\Ggram.Services.csproj" />
     <ProjectReference Include="..\Ggram.Web.ViewModels\Ggram.Web.ViewModels.csproj" />
   </ItemGroup>
 

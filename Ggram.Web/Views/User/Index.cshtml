@@ -1,0 +1,23 @@
+﻿@model UserViewModel
+
+@{
+    ViewBag.Title = "Watchlist";
+}
+
+<p>@Model.FirstName</p>
+<br>
+<p>@Model.LastName</p>
+<br>
+
+@foreach(var post in Model.Wall.Posts)
+{
+    <p>Title is: @post.Title</p>
+    <p>Description is: @post.Description</p>
+}
+
+<form asp-controller="User" asp-action="Index" method="get">
+    <p>
+        Title: <input type="text" name="SearchString" />
+        <input type="submit" value="Search" />
+    </p>
+</form>

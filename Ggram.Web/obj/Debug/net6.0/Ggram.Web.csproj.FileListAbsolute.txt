@@ -74,3 +74,9 @@ C:\Programing\SoftUni\Web\Ggram\Ggram.Web\obj\Debug\net6.0\refint\Ggram.Web.dll
 C:\Programing\SoftUni\Web\Ggram\Ggram.Web\obj\Debug\net6.0\Ggram.Web.pdb
 C:\Programing\SoftUni\Web\Ggram\Ggram.Web\obj\Debug\net6.0\Ggram.Web.genruntimeconfig.cache
 C:\Programing\SoftUni\Web\Ggram\Ggram.Web\obj\Debug\net6.0\ref\Ggram.Web.dll
+C:\Programing\SoftUni\Web\Ggram\Ggram.Web\bin\Debug\net6.0\Ggram.Contracts.dll
+C:\Programing\SoftUni\Web\Ggram\Ggram.Web\bin\Debug\net6.0\Ggram.Services.dll
+C:\Programing\SoftUni\Web\Ggram\Ggram.Web\bin\Debug\net6.0\Ggram.Services.pdb
+C:\Programing\SoftUni\Web\Ggram\Ggram.Web\bin\Debug\net6.0\Ggram.Contracts.pdb
+C:\Programing\SoftUni\Web\Ggram\Ggram.Web\bin\Debug\net6.0\CloudinaryDotNet.dll
+C:\Programing\SoftUni\Web\Ggram\Ggram.Web\bin\Debug\net6.0\Newtonsoft.Json.dll

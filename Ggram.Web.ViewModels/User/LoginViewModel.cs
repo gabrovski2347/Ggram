@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Ggram.Web.ViewModels
+namespace Ggram.Web.ViewModels.User
 {
     public class LoginViewModel
     {

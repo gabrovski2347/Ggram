@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Ggram.Web.ViewModels
+namespace Ggram.Web.ViewModels.User
 {
     public class RegisterViewModel
     {
@@ -18,7 +18,7 @@ namespace Ggram.Web.ViewModels
 
         [Required]
         [EmailAddress]
-        [StringLength (60, MinimumLength = 10)]
+        [StringLength(60, MinimumLength = 10)]
         public string Email { get; set; } = null!;
 
         [Required]

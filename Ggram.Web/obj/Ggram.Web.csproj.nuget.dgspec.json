@@ -4,6 +4,95 @@
     "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web\\Ggram.Web.csproj": {}
   },
   "projects": {
+    "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj",
+        "projectName": "Ggram.Contracts",
+        "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj",
+        "packagesPath": "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\.nuget\\packages\\",
+        "outputPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
+                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj"
+              },
+              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -164,6 +253,95 @@
         }
       }
     },
+    "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\Ggram.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\Ggram.Services.csproj",
+        "projectName": "Ggram.Services",
+        "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\Ggram.Services.csproj",
+        "packagesPath": "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\.nuget\\packages\\",
+        "outputPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj": {
+                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj"
+              },
+              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\Ggram.Data.csproj": {
+                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\Ggram.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -268,6 +446,9 @@
             "projectReferences": {
               "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\Ggram.Data.csproj": {
                 "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\Ggram.Data.csproj"
+              },
+              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\Ggram.Services.csproj": {
+                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\Ggram.Services.csproj"
               },
               "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
                 "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj"

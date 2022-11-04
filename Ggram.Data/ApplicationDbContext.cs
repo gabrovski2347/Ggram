@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Ggram.Web.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<User>
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -12,5 +12,7 @@ namespace Ggram.Web.Data
         }
 
         public DbSet<Post> Posts { get; set; }
+        public DbSet<Request> Requests { get; set; }
+        public DbSet<Wall> Walls { get; set; }
     }
 }
