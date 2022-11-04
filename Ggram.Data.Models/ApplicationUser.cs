@@ -21,7 +21,7 @@ namespace Ggram.Data.Models
         public IEnumerable<Request> Requests { get; set; }
 
         [ForeignKey(nameof(WallId))]
-        public int WallId { get; set; }
+        public string WallId { get; set; }
 
         public Wall Wall { get; set; }
 

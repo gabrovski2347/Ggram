@@ -13,8 +13,6 @@ namespace Ggram.Data.Models
         [Key]
         public int Id { get; set; }
 
-    
-
         [ForeignKey(nameof(SenderId))]
         public string SenderId { get; set; }
         public ApplicationUser Sender { get; set; }

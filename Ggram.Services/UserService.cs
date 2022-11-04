@@ -100,10 +100,9 @@ namespace Ggram.Services
             string userId = Guid.NewGuid().ToString();
             var wall = new Wall()
             {
+                Id = Guid.NewGuid().ToString(),
                 OwnerId = userId
             };
-
-            context.Walls.Add(wall);
 
             var user = new ApplicationUser()
             {

@@ -11,7 +11,7 @@ namespace Ggram.Data.Models
     public class Wall
     {
         [Key]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         public string OwnerId { get; set; }
 
