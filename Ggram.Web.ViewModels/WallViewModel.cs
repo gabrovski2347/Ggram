@@ -9,6 +9,10 @@ namespace Ggram.Web.ViewModels
 {
     public class WallViewModel
     {
+        public WallViewModel()
+        {
+            Posts = new HashSet<PostViewModel>();
+        }
         public IEnumerable<PostViewModel> Posts { get; set; }
     }
 }

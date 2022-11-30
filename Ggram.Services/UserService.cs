@@ -47,14 +47,26 @@ namespace Ggram.Services
             return user;
         }
 
-        public async Task<IEnumerable<ApplicationUser>> FindUserAsync(string keyword)
+        public async Task<IEnumerable<UserViewModel>> FindUserAsync(string keyword)
         {
-            var users = await context.Users
+            List<ApplicationUser> users = await context.Users
                 .Where(u => u.UserName.Contains(keyword))
                 .Take(10)
                 .ToListAsync();
 
-            return users;
+            var result = new List<UserViewModel>();
+
+            foreach (var user in users)
+            {
+                result.Add(new UserViewModel()
+                {
+                    UserName = user.UserName,
+                    LastName = user.LastName,
+                    FirstName = user.FirstName
+                });
+            }
+
+            return result;
         }
 
         public Task SignOutAsync()
@@ -62,14 +74,13 @@ namespace Ggram.Services
             return signInManager.SignOutAsync();
         }
 
-        public Task<UserViewModel> GetUser()
-        {
-            throw new ArgumentException();
-        }
-
-        public UserViewModel CreateModel(ApplicationUser user)
+        public async Task<UserViewModel> CreateModel(ApplicationUser user)
         {
             var posts = new List<PostViewModel>();
+
+            user.Wall = await context.Walls
+                .Where(w => w.Id == user.WallId)
+                .FirstOrDefaultAsync();
 
             foreach (var p in user.Wall.Posts)
             {

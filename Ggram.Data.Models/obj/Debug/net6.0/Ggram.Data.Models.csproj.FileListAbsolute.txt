@@ -12,3 +12,17 @@ C:\Programing\SoftUni\Web\Ggram\Ggram.Data.Models\obj\Debug\net6.0\refint\Ggram.
 C:\Programing\SoftUni\Web\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.pdb
 C:\Programing\SoftUni\Web\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.genruntimeconfig.cache
 C:\Programing\SoftUni\Web\Ggram\Ggram.Data.Models\obj\Debug\net6.0\ref\Ggram.Data.Models.dll
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\bin\Debug\net6.0\Ggram.Data.Models.deps.json
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\bin\Debug\net6.0\Ggram.Data.Models.runtimeconfig.json
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\bin\Debug\net6.0\Ggram.Data.Models.dll
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\bin\Debug\net6.0\Ggram.Data.Models.pdb
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.csproj.AssemblyReference.cache
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.AssemblyInfoInputs.cache
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.AssemblyInfo.cs
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.csproj.CoreCompileInputs.cache
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.dll
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\refint\Ggram.Data.Models.dll
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.pdb
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\Ggram.Data.Models.genruntimeconfig.cache
+C:\Programming\SoftUni\Ggram\Ggram.Data.Models\obj\Debug\net6.0\ref\Ggram.Data.Models.dll

@@ -10,6 +10,11 @@ namespace Ggram.Data.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        public ApplicationUser()
+        {
+            Friends = new HashSet<ApplicationUser>();
+            Requests = new HashSet<Request>();
+        }
         //1.1 First Name
         public string FirstName { get; set; }
 

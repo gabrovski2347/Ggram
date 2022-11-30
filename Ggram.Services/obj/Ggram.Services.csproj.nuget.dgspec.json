@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\Ggram.Services.csproj": {}
+    "C:\\Programming\\SoftUni\\Ggram\\Ggram.Services\\Ggram.Services.csproj": {}
   },
   "projects": {
-    "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj": {
+    "C:\\Programming\\SoftUni\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj",
+        "projectUniqueName": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj",
         "projectName": "Ggram.Contracts",
-        "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj",
-        "packagesPath": "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\.nuget\\packages\\",
-        "outputPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\obj\\",
+        "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj",
+        "packagesPath": "C:\\Users\\bobi2\\.nuget\\packages\\",
+        "outputPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bobi2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
-                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj"
+              "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
+                "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj"
               },
-              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
-                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj"
+              "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj"
               }
             }
           }
@@ -89,21 +89,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
+    "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj",
+        "projectUniqueName": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj",
         "projectName": "Ggram.Data.Models",
-        "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj",
-        "packagesPath": "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\.nuget\\packages\\",
-        "outputPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\obj\\",
+        "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\bobi2\\.nuget\\packages\\",
+        "outputPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bobi2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,21 +167,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\Ggram.Data.csproj": {
+    "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\Ggram.Data.csproj",
+        "projectUniqueName": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj",
         "projectName": "Ggram.Data",
-        "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\Ggram.Data.csproj",
-        "packagesPath": "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\.nuget\\packages\\",
-        "outputPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\obj\\",
+        "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj",
+        "packagesPath": "C:\\Users\\bobi2\\.nuget\\packages\\",
+        "outputPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bobi2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -195,8 +195,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
-                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj"
+              "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
+                "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj"
               }
             }
           }
@@ -249,21 +249,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\Ggram.Services.csproj": {
+    "C:\\Programming\\SoftUni\\Ggram\\Ggram.Services\\Ggram.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\Ggram.Services.csproj",
+        "projectUniqueName": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Services\\Ggram.Services.csproj",
         "projectName": "Ggram.Services",
-        "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\Ggram.Services.csproj",
-        "packagesPath": "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\.nuget\\packages\\",
-        "outputPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Services\\obj\\",
+        "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Services\\Ggram.Services.csproj",
+        "packagesPath": "C:\\Users\\bobi2\\.nuget\\packages\\",
+        "outputPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bobi2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -277,11 +277,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj": {
-                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj"
+              "C:\\Programming\\SoftUni\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj": {
+                "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj"
               },
-              "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\Ggram.Data.csproj": {
-                "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Data\\Ggram.Data.csproj"
+              "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj": {
+                "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj"
               }
             }
           }
@@ -338,21 +338,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
+    "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj",
+        "projectUniqueName": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj",
         "projectName": "Ggram.Web.ViewModels",
-        "projectPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj",
-        "packagesPath": "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\.nuget\\packages\\",
-        "outputPath": "C:\\Programing\\SoftUni\\Web\\Ggram\\Ggram.Web.ViewModels\\obj\\",
+        "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\bobi2\\.nuget\\packages\\",
+        "outputPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\defaultuser0.DESKTOP-G4L960M\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bobi2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -416,7 +416,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

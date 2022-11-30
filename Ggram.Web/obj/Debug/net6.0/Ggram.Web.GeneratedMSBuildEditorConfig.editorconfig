@@ -8,53 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ggram.Web
 build_property.RootNamespace = Ggram.Web
-build_property.ProjectDir = C:\Programing\SoftUni\Web\Ggram\Ggram.Web\
+build_property.ProjectDir = C:\Programming\SoftUni\Ggram\Ggram.Web\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Programing\SoftUni\Web\Ggram\Ggram.Web
+build_property.MSBuildProjectDirectory = C:\Programming\SoftUni\Ggram\Ggram.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/Home/Index.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/Shared/Error.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/Shared/_LoginPartial.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/User/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/User/Login.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/User/Register.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/_ViewImports.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/Wall/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FsbFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/Wall/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2FsbFxBbGwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/_ViewStart.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Programing/SoftUni/Web/Ggram/Ggram.Web/Views/Shared/_Layout.cshtml]
+[C:/Programming/SoftUni/Ggram/Ggram.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-idviwhyapo

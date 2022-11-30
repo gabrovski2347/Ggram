@@ -102,6 +102,65 @@ namespace Ggram.Web.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "dea12856-c198-4129-b3f3-b893d8395082",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "4b5901f2-f206-40d6-83f5-10e39c15ad40",
+                            Email = "agent@mail.com",
+                            EmailConfirmed = false,
+                            FirstName = "Petar",
+                            LastName = "Petrov",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "agent@mail.com",
+                            NormalizedUserName = "agent@mail.com",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGSlEBC+O8j5+ZAH1f02pTTCLR42QIgBXqZSysLyx7UDN4U7DO2iDxtUYp7Z4UcVsQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "6fa1b6b7-fd41-4c50-8472-aca42e502c2d",
+                            TwoFactorEnabled = false,
+                            UserName = "agent@mail.com",
+                            WallId = "ba1eaa72-c7e6-4be9-a76f-cf7a12cc4c26"
+                        },
+                        new
+                        {
+                            Id = "6d5800ce-d726-4fc8-83d9-d6b3ac1f591e",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "61ff3522-f024-4da2-8afb-3899ac9b455e",
+                            Email = "guest@mail.com",
+                            EmailConfirmed = false,
+                            FirstName = "Georgi",
+                            LastName = "Petrov",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "guest@mail.com",
+                            NormalizedUserName = "guest@mail.com",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGwJcW3BKeVSK2TW2CstMEsrTa08PFK9BicI3zSf/3oISESuxWD+iaG18Wax6e/NWQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "d0df57c6-b504-4b22-9d42-0e9eaa7763ae",
+                            TwoFactorEnabled = false,
+                            UserName = "guest@mail.com",
+                            WallId = "d8a02cd4-dc0b-40c4-8b1a-99069438ce00"
+                        },
+                        new
+                        {
+                            Id = "cb410aef-6919-41a7-8bfc-5159f1ff10b7",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "0c17e8e7-71d4-48b9-ba9a-e853d120f174",
+                            Email = "test@mail.com",
+                            EmailConfirmed = false,
+                            FirstName = "Dimitar",
+                            LastName = "Geshev",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "test@mail.com",
+                            NormalizedUserName = "test@mail.com",
+                            PasswordHash = "AQAAAAEAACcQAAAAEG+yRCp3vjw/xvId48ZOQIykXjK9MGfqZpowBzDzyQpuZd++diDufIGReJMlosH93w==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "a216d7a2-bda5-4c78-9fef-abc288bf3ef0",
+                            TwoFactorEnabled = false,
+                            UserName = "test@mail.com",
+                            WallId = "e3bf6ecf-16a5-4f20-86c1-2247168cdc55"
+                        });
                 });
 
             modelBuilder.Entity("Ggram.Data.Models.Post", b =>

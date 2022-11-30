@@ -12,3 +12,17 @@ C:\Programing\SoftUni\Web\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\refint\Ggr
 C:\Programing\SoftUni\Web\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.pdb
 C:\Programing\SoftUni\Web\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.genruntimeconfig.cache
 C:\Programing\SoftUni\Web\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\ref\Ggram.Web.ViewModels.dll
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\bin\Debug\net6.0\Ggram.Web.ViewModels.deps.json
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\bin\Debug\net6.0\Ggram.Web.ViewModels.runtimeconfig.json
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\bin\Debug\net6.0\Ggram.Web.ViewModels.dll
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\bin\Debug\net6.0\Ggram.Web.ViewModels.pdb
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.csproj.AssemblyReference.cache
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.AssemblyInfo.cs
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.dll
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\refint\Ggram.Web.ViewModels.dll
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.pdb
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\Ggram.Web.ViewModels.genruntimeconfig.cache
+C:\Programming\SoftUni\Ggram\Ggram.Web.ViewModels\obj\Debug\net6.0\ref\Ggram.Web.ViewModels.dll

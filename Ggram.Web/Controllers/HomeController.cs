@@ -8,14 +8,7 @@ namespace Ggram.Web.Controllers
     {
         public IActionResult Index()
         {
-            if (User?.Identity?.IsAuthenticated ?? false)
-            {
-                return RedirectToAction("Index", "User");
-            }
-            else
-            {
-                return RedirectToAction("Login", "User");
-            }
+            return View();
         }
     }
 }

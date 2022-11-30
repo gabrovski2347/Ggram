@@ -8,6 +8,7 @@ using Ggram.Web.ViewModels.User;
 using Ggram.Contracts;
 using Ggram.Web.ViewModels;
 using Ggram.Web.ViewModels.Post;
+using Ggram.Web.Data;
 
 namespace Ggram.Web.Controllers
 {
@@ -17,27 +18,30 @@ namespace Ggram.Web.Controllers
         private readonly UserManager<ApplicationUser> userManager;
         private readonly SignInManager<ApplicationUser> signInManager;
         private readonly IUserService userService;
+        private readonly ApplicationDbContext context;
 
         public UserController(
             UserManager<ApplicationUser> _userManager,
             SignInManager<ApplicationUser> _signInManager,
-            IUserService _userService)
+            IUserService _userService,
+            ApplicationDbContext _context)
         {
             userManager = _userManager;
             signInManager = _signInManager;
             userService = _userService;
+            context = _context;
         }
 
-        public async Task<IActionResult> Index()
-        {
-            var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
+        //public async Task<IActionResult> Index(string searchString)
+        //{ 
+        //    var userId = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value;
 
-            var user = await userService.ReadUserAsync(userId);
+        //    var user = await userService.ReadUserAsync(userId);
 
-            UserViewModel model = userService.CreateModel(user);
+        //    UserViewModel model = await userService.CreateModel(user);
 
-            return View(model);
-        }        
+        //    return View(model);
+        //}
 
         [HttpGet]
         [AllowAnonymous]

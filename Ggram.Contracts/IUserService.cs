@@ -13,14 +13,13 @@ namespace Ggram.Contracts
     {
         Task<ApplicationUser> ReadUserAsync(string userId);
 
-        Task<IEnumerable<ApplicationUser>> FindUserAsync(string keyword);
-
         Task SignOutAsync();
 
-        Task<UserViewModel> GetUser();
-
-        UserViewModel CreateModel(ApplicationUser user);
-
         Task<IdentityResult> RegisterUserAsync(RegisterViewModel model);
+
+        Task<IEnumerable<UserViewModel>> FindUserAsync(string keyword);
+
+        Task<UserViewModel> CreateModel(ApplicationUser user);
+
     }
 }
