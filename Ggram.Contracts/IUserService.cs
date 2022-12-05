@@ -17,9 +17,5 @@ namespace Ggram.Contracts
 
         Task<IdentityResult> RegisterUserAsync(RegisterViewModel model);
 
-        Task<IEnumerable<UserViewModel>> FindUserAsync(string keyword);
-
-        Task<UserViewModel> CreateModel(ApplicationUser user);
-
     }
 }

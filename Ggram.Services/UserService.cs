@@ -35,8 +35,6 @@ namespace Ggram.Services
         {
             var user = await context.Users
                 .Where(u => u.Id == userId)
-                .Include(u => u.Wall)
-                .ThenInclude(w => w.Posts)
                 .FirstOrDefaultAsync();
 
             if (user == null)
@@ -47,73 +45,14 @@ namespace Ggram.Services
             return user;
         }
 
-        public async Task<IEnumerable<UserViewModel>> FindUserAsync(string keyword)
-        {
-            List<ApplicationUser> users = await context.Users
-                .Where(u => u.UserName.Contains(keyword))
-                .Take(10)
-                .ToListAsync();
-
-            var result = new List<UserViewModel>();
-
-            foreach (var user in users)
-            {
-                result.Add(new UserViewModel()
-                {
-                    UserName = user.UserName,
-                    LastName = user.LastName,
-                    FirstName = user.FirstName
-                });
-            }
-
-            return result;
-        }
-
         public Task SignOutAsync()
         {
             return signInManager.SignOutAsync();
         }
 
-        public async Task<UserViewModel> CreateModel(ApplicationUser user)
-        {
-            var posts = new List<PostViewModel>();
-
-            user.Wall = await context.Walls
-                .Where(w => w.Id == user.WallId)
-                .FirstOrDefaultAsync();
-
-            foreach (var p in user.Wall.Posts)
-            {
-                posts.Add(new PostViewModel()
-                {
-                    Title = p.Title,
-                    Description = p.Description
-                });
-            }
-
-            var wall = new WallViewModel()
-            {
-                Posts = posts
-            };
-
-            var model = new UserViewModel()
-            {
-                FirstName = user.FirstName,
-                LastName = user.LastName,
-                Wall = wall
-            };
-
-            return model;
-        }
-
         public async Task<IdentityResult> RegisterUserAsync(RegisterViewModel model)
         {
             string userId = Guid.NewGuid().ToString();
-            var wall = new Wall()
-            {
-                Id = Guid.NewGuid().ToString(),
-                OwnerId = userId
-            };
 
             var user = new ApplicationUser()
             {
@@ -122,8 +61,6 @@ namespace Ggram.Services
                 FirstName = model.FirstName,
                 Email = model.Email,
                 UserName = model.UserName,
-                Wall = wall,
-                WallId = wall.Id
             };
 
             var result = await userManager.CreateAsync(user, model.Password);

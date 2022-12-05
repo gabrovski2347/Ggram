@@ -87,7 +87,7 @@ namespace Ggram.Web.Controllers
         {
             if (User?.Identity?.IsAuthenticated ?? false)
             {
-                return RedirectToAction("Index", "User");
+                return RedirectToAction("Index", "Home");
             }
 
             var model = new LoginViewModel();
@@ -112,7 +112,7 @@ namespace Ggram.Web.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "User");
+                    return RedirectToAction("Index", "Home");
                 }
             }
 

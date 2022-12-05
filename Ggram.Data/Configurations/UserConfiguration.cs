@@ -32,7 +32,6 @@ namespace Ggram.Data.Configurations
                 NormalizedUserName = "agent@mail.com",
                 Email = "agent@mail.com",
                 NormalizedEmail = "agent@mail.com",
-                WallId = "ba1eaa72-c7e6-4be9-a76f-cf7a12cc4c26"
             };
 
             agent.PasswordHash = hasher.HashPassword(agent, "agent123");
@@ -48,7 +47,6 @@ namespace Ggram.Data.Configurations
                 NormalizedUserName = "guest@mail.com",
                 Email = "guest@mail.com",
                 NormalizedEmail = "guest@mail.com",
-                WallId = "d8a02cd4-dc0b-40c4-8b1a-99069438ce00"
             };
 
             user.PasswordHash = hasher.HashPassword(user, "user123");
@@ -64,7 +62,6 @@ namespace Ggram.Data.Configurations
                 NormalizedUserName = "test@mail.com",
                 Email = "test@mail.com",
                 NormalizedEmail = "test@mail.com",
-                WallId = "e3bf6ecf-16a5-4f20-86c1-2247168cdc55"
             };
 
             testUser.PasswordHash = hasher.HashPassword(testUser, "user123");

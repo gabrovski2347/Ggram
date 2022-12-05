@@ -36,3 +36,22 @@ C:\Programming\SoftUni\Ggram\Ggram.Contracts\obj\Debug\net6.0\refint\Ggram.Contr
 C:\Programming\SoftUni\Ggram\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.pdb
 C:\Programming\SoftUni\Ggram\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.genruntimeconfig.cache
 C:\Programming\SoftUni\Ggram\Ggram.Contracts\obj\Debug\net6.0\ref\Ggram.Contracts.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\bin\Debug\net6.0\Ggram.Contracts.deps.json
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\bin\Debug\net6.0\Ggram.Contracts.runtimeconfig.json
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\bin\Debug\net6.0\Ggram.Contracts.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\bin\Debug\net6.0\Ggram.Contracts.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\bin\Debug\net6.0\Ggram.Data.Models.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\bin\Debug\net6.0\Ggram.Web.ViewModels.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\bin\Debug\net6.0\Ggram.Data.Models.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\bin\Debug\net6.0\Ggram.Web.ViewModels.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.csproj.AssemblyReference.cache
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.AssemblyInfoInputs.cache
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.AssemblyInfo.cs
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.csproj.CoreCompileInputs.cache
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.csproj.CopyComplete
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\refint\Ggram.Contracts.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\Ggram.Contracts.genruntimeconfig.cache
+C:\Programming\SoftUni\WEB\Social network\Ggram.Contracts\obj\Debug\net6.0\ref\Ggram.Contracts.dll

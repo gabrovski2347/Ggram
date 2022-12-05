@@ -44,3 +44,26 @@ C:\Programming\SoftUni\Ggram\Ggram.Services\obj\Debug\net6.0\refint\Ggram.Servic
 C:\Programming\SoftUni\Ggram\Ggram.Services\obj\Debug\net6.0\Ggram.Services.pdb
 C:\Programming\SoftUni\Ggram\Ggram.Services\obj\Debug\net6.0\Ggram.Services.genruntimeconfig.cache
 C:\Programming\SoftUni\Ggram\Ggram.Services\obj\Debug\net6.0\ref\Ggram.Services.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\Ggram.Services.csproj.AssemblyReference.cache
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\Ggram.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\Ggram.Services.AssemblyInfoInputs.cache
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\Ggram.Services.AssemblyInfo.cs
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\Ggram.Services.csproj.CoreCompileInputs.cache
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\Ggram.Services.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\refint\Ggram.Services.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\Ggram.Services.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Services.deps.json
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Services.runtimeconfig.json
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Services.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Services.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Contracts.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Data.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Data.Models.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Web.ViewModels.dll
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Contracts.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Data.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Data.Models.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\bin\Debug\net6.0\Ggram.Web.ViewModels.pdb
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\Ggram.Services.csproj.CopyComplete
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\Ggram.Services.genruntimeconfig.cache
+C:\Programming\SoftUni\WEB\Social network\Ggram.Services\obj\Debug\net6.0\ref\Ggram.Services.dll

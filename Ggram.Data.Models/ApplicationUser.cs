@@ -16,7 +16,8 @@ namespace Ggram.Data.Models
             Friends = new List<UserFriend>();
             FriendsTo = new List<UserFriend>();
             FriendRequestsSent = new List<FriendRequest>();
-;       }
+;       
+        }
         //1.1 First Name
         public string FirstName { get; set; }
 
