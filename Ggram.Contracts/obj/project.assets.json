@@ -2491,11 +2491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj",
+      "projectUniqueName": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Contracts\\Ggram.Contracts.csproj",
       "projectName": "Ggram.Contracts",
-      "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Contracts\\Ggram.Contracts.csproj",
+      "projectPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Contracts\\Ggram.Contracts.csproj",
       "packagesPath": "C:\\Users\\bobi2\\.nuget\\packages\\",
-      "outputPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Contracts\\obj\\",
+      "outputPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bobi2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2512,11 +2512,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
-              "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj"
+            "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
+              "projectPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data.Models\\Ggram.Data.Models.csproj"
             },
-            "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
-              "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj"
+            "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
+              "projectPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj"
             }
           }
         }

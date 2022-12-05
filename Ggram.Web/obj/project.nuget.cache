@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7+ZdQUZ+CHx/jd0OvtvXqdoDNCxE7c2IrlequNM3z+UnoPQ7Iq/OfPhK/DFxYK5/vofqHHkZipBSzjIwdWbg3Q==",
+  "dgSpecHash": "zTCdOQr1WYQ1wkR9cYvwba3HvC6fKCQNs8R0qbaQ6OjTOvo1TBR6iEuL9QLIrZCXKqcppwq0kLAh731/joKwhA==",
   "success": true,
-  "projectFilePath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web\\Ggram.Web.csproj",
+  "projectFilePath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Web\\Ggram.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bobi2\\.nuget\\packages\\cloudinarydotnet\\1.20.0\\cloudinarydotnet.1.20.0.nupkg.sha512",
     "C:\\Users\\bobi2\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

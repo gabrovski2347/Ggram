@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lVxvz+7TDEKQUnn6qFvuWTMlD/VKCuFVW8HR2Esf8kQr56kqP/wFe+KeVTVItBZrcS3PYo8j6QgEnxJAkA0q/A==",
+  "dgSpecHash": "mL1fozA0e9+9XPz0P81f6dm/RtuLWiWUB9IJIME+rjEpIn1n7TlZOUbCX2Zlz2nUW1M5MQ/p46ujSMYBzmIBCA==",
   "success": true,
-  "projectFilePath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj",
+  "projectFilePath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data\\Ggram.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bobi2\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\bobi2\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.6\\microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",

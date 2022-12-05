@@ -13,11 +13,13 @@ namespace Ggram.Web.Data
         }
 
         public DbSet<Post> Posts { get; set; }
-        public DbSet<Request> Requests { get; set; }
-        public DbSet<Wall> Walls { get; set; }
+        public DbSet<FriendRequest> Requests { get; set; }
+        public DbSet<UserFriend> Friends { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.ApplyConfiguration(new UserConfiguration());
+
             base.OnModelCreating(builder);
         }
     }

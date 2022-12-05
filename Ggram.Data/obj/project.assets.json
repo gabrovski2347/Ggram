@@ -2296,11 +2296,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj",
+      "projectUniqueName": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data\\Ggram.Data.csproj",
       "projectName": "Ggram.Data",
-      "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj",
+      "projectPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data\\Ggram.Data.csproj",
       "packagesPath": "C:\\Users\\bobi2\\.nuget\\packages\\",
-      "outputPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\obj\\",
+      "outputPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bobi2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2317,8 +2317,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
-              "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data.Models\\Ggram.Data.Models.csproj"
+            "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data.Models\\Ggram.Data.Models.csproj": {
+              "projectPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data.Models\\Ggram.Data.Models.csproj"
             }
           }
         }

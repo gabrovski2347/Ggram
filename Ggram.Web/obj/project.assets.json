@@ -2561,11 +2561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web\\Ggram.Web.csproj",
+      "projectUniqueName": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Web\\Ggram.Web.csproj",
       "projectName": "Ggram.Web",
-      "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web\\Ggram.Web.csproj",
+      "projectPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Web\\Ggram.Web.csproj",
       "packagesPath": "C:\\Users\\bobi2\\.nuget\\packages\\",
-      "outputPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web\\obj\\",
+      "outputPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bobi2\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2582,14 +2582,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj": {
-              "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Data\\Ggram.Data.csproj"
+            "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data\\Ggram.Data.csproj": {
+              "projectPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Data\\Ggram.Data.csproj"
             },
-            "C:\\Programming\\SoftUni\\Ggram\\Ggram.Services\\Ggram.Services.csproj": {
-              "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Services\\Ggram.Services.csproj"
+            "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Services\\Ggram.Services.csproj": {
+              "projectPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Services\\Ggram.Services.csproj"
             },
-            "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
-              "projectPath": "C:\\Programming\\SoftUni\\Ggram\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj"
+            "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj": {
+              "projectPath": "C:\\Programming\\SoftUni\\WEB\\Social network\\Ggram.Web.ViewModels\\Ggram.Web.ViewModels.csproj"
             }
           }
         }
