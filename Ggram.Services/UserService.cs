@@ -67,5 +67,46 @@ namespace Ggram.Services
 
             return result;
         }
+
+        public async Task<List<UserViewModel>> GetUsers()
+        {
+            var users = await context
+                .Users
+                .Select(u => new UserViewModel
+                {
+                    FirstName = u.FirstName,
+                    LastName = u.LastName,
+                    Description = u.Description,
+                })
+                .ToListAsync();
+
+            if (users == null)
+            {
+                throw new ArgumentException("No Users");
+            }
+
+            return users;
+        }
+
+        public async Task<List<UserViewModel>> FindUsersAsync(string searchValue)
+        {
+            if (string.IsNullOrEmpty(searchValue))
+            {
+                throw new ArgumentNullException("Empty string");
+            }
+
+            var users = await context
+                .Users
+                .Where(u => u.FullName.ToLower().Contains(searchValue.ToLower()))
+                .Select(u => new UserViewModel()
+                {
+                    FirstName = u.FirstName,
+                    LastName = u.LastName,
+                    FullName = u.FullName,
+                })
+                .ToListAsync();
+
+            return users
+        }
     }
 }

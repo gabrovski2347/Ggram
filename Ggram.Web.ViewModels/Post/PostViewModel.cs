@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,8 +9,12 @@ namespace Ggram.Web.ViewModels.Post
 {
     public class PostViewModel
     {
-        public string Title { get; set; }
+        [Required]
+        [MaxLength(20)]
+        [MinLength(2)]
+        public string Title { get; set; } = null!;
 
-        public string Description { get; set; }
+        [MaxLength(200)]
+        public string Description { get; set; } = null!;
     }
 }

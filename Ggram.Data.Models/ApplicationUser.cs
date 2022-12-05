@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -16,13 +17,22 @@ namespace Ggram.Data.Models
             Friends = new List<UserFriend>();
             FriendsTo = new List<UserFriend>();
             FriendRequestsSent = new List<FriendRequest>();
-;       
+            FullName = $"{FirstName} {LastName}";
         }
         //1.1 First Name
+        [Required]
+        [MaxLength(20)]
         public string FirstName { get; set; }
 
         //1.2 Last Name
+        [Required]
+        [MaxLength(20)]
         public string LastName { get; set; }
+
+        public string FullName;
+
+        [MaxLength(200)]
+        public string Description { get; set; }
 
         public HashSet<Post> Posts { get; set; }
 

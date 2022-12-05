@@ -6,7 +6,6 @@ using System.Security.Claims;
 using Ggram.Services;
 using Ggram.Web.ViewModels.User;
 using Ggram.Contracts;
-using Ggram.Web.ViewModels;
 using Ggram.Web.ViewModels.Post;
 using Ggram.Web.Data;
 
@@ -126,6 +125,30 @@ namespace Ggram.Web.Controllers
             await userService.SignOutAsync();
 
             return RedirectToAction("Index", "Home");
+        }
+
+        public async Task<IActionResult> All()
+        {
+            List<UserViewModel> users = await userService.GetUsers();
+
+            return View(users);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Search(string searchValue)
+        {
+            var model = new UserSearchViewModel();
+            model.SearchValue = searchValue;
+
+            List<UserViewModel> users = await userService.FindUsersAsync(searchValue);
+
+            return View(users);
+        }
+
+        [HttpPost]
+        public IActionResult Search(UserSearchViewModel model)
+        {
+            return RedirectToAction("Search", "User", new { searchValue = model.SearchValue });
         }
     }
 }
