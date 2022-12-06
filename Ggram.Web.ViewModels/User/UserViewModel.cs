@@ -9,11 +9,9 @@ namespace Ggram.Web.ViewModels.User
 {
     public class UserViewModel
     {
-        public UserViewModel()
-        {
-            FullName = $"{FirstName} {LastName}";
-        }
         public string Id { get; set; } = null!;
+
+        public string Nickname { get; set; }
 
         //1.1 First Name
         [Required]

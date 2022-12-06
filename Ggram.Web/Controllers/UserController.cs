@@ -135,14 +135,33 @@ namespace Ggram.Web.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Search(string searchValue)
+        public async Task<IActionResult> Search(string searchValue, int page)
         {
             var model = new UserSearchViewModel();
             model.SearchValue = searchValue;
+            model.Page = page;
+            model.AllMatchesCount = await userService.GetUsersCountAsync(searchValue);
 
-            List<UserViewModel> users = await userService.FindUsersAsync(searchValue);
+            if (page == 0 || page < 1)
+            {
+                return RedirectToAction(nameof(Search), new { searchValue, page = 1 });
+            }
 
-            return View(users);
+            var users = await userService.FindUsersAsync(searchValue, page);
+
+            if ((users?.Count() ?? 0) == 0 && page > 1)
+            {
+                return RedirectToAction(nameof(Search), new { searchValue, page = page - 1 });
+            }
+
+            if (users != null)
+            {
+                model.Users = users.ToList();
+            }
+
+            ViewBag.ReturnUrl = $"/User/Search?searchValue={searchValue}&page={page}";
+
+            return View(model);
         }
 
         [HttpPost]

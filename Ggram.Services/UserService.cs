@@ -74,6 +74,7 @@ namespace Ggram.Services
                 .Users
                 .Select(u => new UserViewModel
                 {
+                    Nickname = u.UserName,
                     FirstName = u.FirstName,
                     LastName = u.LastName,
                     Description = u.Description,
@@ -88,25 +89,42 @@ namespace Ggram.Services
             return users;
         }
 
-        public async Task<List<UserViewModel>> FindUsersAsync(string searchValue)
+        public async Task<List<UserViewModel>> FindUsersAsync(string searchValue, int page)
         {
             if (string.IsNullOrEmpty(searchValue))
             {
-                throw new ArgumentNullException("Empty string");
+                return null;
             }
 
             var users = await context
                 .Users
-                .Where(u => u.FullName.ToLower().Contains(searchValue.ToLower()))
+                .Where(u => u.NormalizedUserName.ToLower().Contains(searchValue.ToLower()))
+                .Skip((page-1) * 10)
+                .Take(10)
                 .Select(u => new UserViewModel()
                 {
                     FirstName = u.FirstName,
                     LastName = u.LastName,
-                    FullName = u.FullName,
+                    Nickname = u.UserName
                 })
                 .ToListAsync();
 
-            return users
+            return users;
+        }
+
+        public async Task<int> GetUsersCountAsync(string searchValue)
+        {
+            if (string.IsNullOrEmpty(searchValue))
+            {
+                return 0;
+            }
+
+            var count = await context
+                .Users
+                .Where(u => u.UserName.ToLower().Contains(searchValue.ToLower()))
+                .CountAsync();
+
+            return count;
         }
     }
 }

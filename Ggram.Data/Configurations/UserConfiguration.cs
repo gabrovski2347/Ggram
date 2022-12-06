@@ -32,6 +32,7 @@ namespace Ggram.Data.Configurations
                 NormalizedUserName = "agent@mail.com",
                 Email = "agent@mail.com",
                 NormalizedEmail = "agent@mail.com",
+                Description = "I am agent"
             };
 
             agent.PasswordHash = hasher.HashPassword(agent, "agent123");
@@ -47,6 +48,7 @@ namespace Ggram.Data.Configurations
                 NormalizedUserName = "guest@mail.com",
                 Email = "guest@mail.com",
                 NormalizedEmail = "guest@mail.com",
+                Description = "I am user1"
             };
 
             user.PasswordHash = hasher.HashPassword(user, "user123");
@@ -62,6 +64,7 @@ namespace Ggram.Data.Configurations
                 NormalizedUserName = "test@mail.com",
                 Email = "test@mail.com",
                 NormalizedEmail = "test@mail.com",
+                Description = "I am user2"
             };
 
             testUser.PasswordHash = hasher.HashPassword(testUser, "user123");

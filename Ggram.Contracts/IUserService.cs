@@ -17,5 +17,10 @@ namespace Ggram.Contracts
 
         Task<IdentityResult> RegisterUserAsync(RegisterViewModel model);
 
+        Task<List<UserViewModel>> GetUsers();
+
+        Task<List<UserViewModel>> FindUsersAsync(string searchValue, int page);
+
+        public Task<int> GetUsersCountAsync(string searchValue);
     }
 }

@@ -14,10 +14,8 @@ namespace Ggram.Data.Models
         public ApplicationUser()
         {
             Posts = new HashSet<Post>();
-            Friends = new List<UserFriend>();
-            FriendsTo = new List<UserFriend>();
-            FriendRequestsSent = new List<FriendRequest>();
-            FullName = $"{FirstName} {LastName}";
+            Followers = new HashSet<UserFollower>();
+            Followed = new HashSet<UserFollowed>();
         }
         //1.1 First Name
         [Required]
@@ -29,21 +27,13 @@ namespace Ggram.Data.Models
         [MaxLength(20)]
         public string LastName { get; set; }
 
-        public string FullName;
-
         [MaxLength(200)]
-        public string Description { get; set; }
+        public string Description { get; set; } = null!;
 
-        public HashSet<Post> Posts { get; set; }
+        public IEnumerable<Post> Posts { get; set; }
 
+        public IEnumerable<UserFollowed> Followed { get; set; }
 
-        [InverseProperty(nameof(UserFriend.User))]
-        public List<UserFriend> Friends { get; set; }
-
-        [InverseProperty(nameof(UserFriend.Friend))]
-        public List<UserFriend> FriendsTo { get; set; }
-
-        [InverseProperty(nameof(FriendRequest.Sender))]
-        public List<FriendRequest> FriendRequestsSent { get; set; }
+        public IEnumerable<UserFollower> Followers { get; set; }
     }
 }
