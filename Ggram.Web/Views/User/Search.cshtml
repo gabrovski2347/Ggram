@@ -51,5 +51,7 @@ else
     @foreach (var user in Model.Users)
     {
         <p>@user.Nickname - @user.FirstName @user.LastName</p>
+        <a class="btn btn-primary" asp-action="Details" asp-controller="User" class="card-link">Details</a>
+        <a class="btn btn-primary" asp-action="Follow" asp-controller="Follower" class="card-link">Follow</a>
     }
 }

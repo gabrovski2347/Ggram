@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Ggram.Web.ViewModels.Post
 {
     public class PostViewModel
-    {
+    { 
         [Required]
         [MaxLength(20)]
         [MinLength(2)]

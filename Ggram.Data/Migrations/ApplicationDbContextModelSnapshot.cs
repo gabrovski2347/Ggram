@@ -106,7 +106,7 @@ namespace Ggram.Data.Migrations
                         {
                             Id = "dea12856-c198-4129-b3f3-b893d8395082",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "81a74582-9482-4f37-8a11-8920b92de325",
+                            ConcurrencyStamp = "8791a036-addb-4442-8eb3-e5db726d53ee",
                             Description = "I am agent",
                             Email = "agent@mail.com",
                             EmailConfirmed = false,
@@ -115,9 +115,9 @@ namespace Ggram.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "agent@mail.com",
                             NormalizedUserName = "agent@mail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEPAS2y2ZcnfgUTqq1fHl6RvA1qkdxOQfdFS3Yfrdw4I/2NfwUzEQA5nj/JtRjYVj0Q==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENxflM0SHDcTkVQPsE/y8usSIqePww5HfZAHuY6A+952LJMYalCWixlqGGaDXX1aIQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "62609995-efd7-4fa0-8665-b76ac8ebf012",
+                            SecurityStamp = "c18f2669-dcfc-47cc-b9fc-16041b3d6c24",
                             TwoFactorEnabled = false,
                             UserName = "agent@mail.com"
                         },
@@ -125,7 +125,7 @@ namespace Ggram.Data.Migrations
                         {
                             Id = "6d5800ce-d726-4fc8-83d9-d6b3ac1f591e",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0a43eff3-e5a9-469b-a790-2ae6b949eaf8",
+                            ConcurrencyStamp = "97725a7c-7813-45f7-b112-1e1d0a781ed0",
                             Description = "I am user1",
                             Email = "guest@mail.com",
                             EmailConfirmed = false,
@@ -134,9 +134,9 @@ namespace Ggram.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "guest@mail.com",
                             NormalizedUserName = "guest@mail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEHfnS4gvcVlnSF4hMIV5lj2i0wpxL5NXyxHh4CabnIaN1LWzN5e92EmCjNWYaIcRZA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAENKMB3MXwDqcbdbeDW5JjB2nZFPBAelLvcq6UWzhQ7zrCgkG7o2JptLu2QY9dyiCig==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "e7fbcc16-67e9-4762-a917-e7ffab372ebf",
+                            SecurityStamp = "ae528775-4462-4f13-8dae-d4b440e0168c",
                             TwoFactorEnabled = false,
                             UserName = "guest@mail.com"
                         },
@@ -144,7 +144,7 @@ namespace Ggram.Data.Migrations
                         {
                             Id = "cb410aef-6919-41a7-8bfc-5159f1ff10b7",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "f64ec66f-e99d-4cda-b80e-e55e7e174245",
+                            ConcurrencyStamp = "97f57c27-e932-44db-82d4-26347baf4974",
                             Description = "I am user2",
                             Email = "test@mail.com",
                             EmailConfirmed = false,
@@ -153,9 +153,9 @@ namespace Ggram.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "test@mail.com",
                             NormalizedUserName = "test@mail.com",
-                            PasswordHash = "AQAAAAEAACcQAAAAEIuZcyutperec/zWCKcvCmOAzdejfbpEKCZM5lZBL9aiymZQbXNuOkbrm7JqrxHbbg==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDGRaO0YEpGAqsNpVMIsBoFccDTKqDletz2+WTap0OFbLXdCsX1Z95gLfYTxMpcCqA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "9b34f7a0-b0a6-4222-9790-e6b95c94aae1",
+                            SecurityStamp = "2b89169c-a943-4471-93ec-ffaa3f8b614d",
                             TwoFactorEnabled = false,
                             UserName = "test@mail.com"
                         });
@@ -169,22 +169,26 @@ namespace Ggram.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("ApplicationUserId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("ApplicationUserId");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Posts");
                 });
@@ -368,9 +372,13 @@ namespace Ggram.Data.Migrations
 
             modelBuilder.Entity("Ggram.Data.Models.Post", b =>
                 {
-                    b.HasOne("Ggram.Data.Models.ApplicationUser", null)
+                    b.HasOne("Ggram.Data.Models.ApplicationUser", "ApplicationUser")
                         .WithMany("Posts")
-                        .HasForeignKey("ApplicationUserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApplicationUser");
                 });
 
             modelBuilder.Entity("Ggram.Data.Models.UserFollowed", b =>

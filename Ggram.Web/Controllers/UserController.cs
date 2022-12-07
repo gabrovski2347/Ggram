@@ -169,5 +169,10 @@ namespace Ggram.Web.Controllers
         {
             return RedirectToAction("Search", "User", new { searchValue = model.SearchValue });
         }
+
+        //public async Task<IActionResult> Details(string id)
+        //{
+        //    return View 
+        //}
     }
 }
