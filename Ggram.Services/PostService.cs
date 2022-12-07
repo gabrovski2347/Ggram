@@ -41,6 +41,8 @@ namespace Ggram.Services
 
             List<ApplicationUser> users = new List<ApplicationUser>();
 
+            users.Add(currUser);
+
             foreach (var followed in followedUsers)
             {
                 users.Add(context.Users.FirstOrDefault(u => u.Id == followed.FollowedId));
@@ -50,6 +52,7 @@ namespace Ggram.Services
 
             foreach (var user in users)
             {
+                user.Posts = await context.Posts.Where(p => p.UserId == user.Id).ToListAsync();
                 foreach(var post in user.Posts)
                 {
                     PostViewModel postViewModel = new PostViewModel()
